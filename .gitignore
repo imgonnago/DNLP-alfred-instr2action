@@ -1,2 +1,4 @@
 data/
 traj_data.py
+.vscode
+__pycache__
