@@ -1,0 +1,12 @@
+# configs/base.yaml
+
+seed: 42
+
+paths:
+  raw_dir: data/json_2.1.0
+  processed_dir: data/processed
+
+splits:
+  train: train
+  valid: valid_seen
+  test: valid_unseen
