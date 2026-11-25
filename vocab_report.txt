@@ -1,0 +1,37 @@
+valid 820
+test 815
+
+
+Valid(original: valid_seen)
+==================================================
+[words oov] : 0.10%, [sequence with oov] : 0.95%
+==================================================
+[actions oov] : 0.00%, [samples with oov] : 0.00%
+
+
+test(original: valid_unseen)
+==================================================
+[words oov] : 0.08%, [sequence with oov] : 0.87%
+==================================================
+[actions oov] : 0.59%, [samples with oov] : 3.68%
+
+
+[words vocab size] : 1222
+[actions vocab size] : 606
+
+
+sentence : Take right, take another right, walk to chair
+tokens : ['take', 'right', 'take', 'another', 'right', 'walk', 'to', 'chair']
+ID : [28, 9, 28, 288, 9, 12, 4, 76]
+
+
+sentence : Go right and then right again and turn to the right to face the toilet.
+tokens : ['go', 'right', 'and', 'then', 'right', 'again', 'and', 'turn', 'to', 'the', 'right', 'to', 'face', 'the', 'toilet']
+ID : [19, 9, 6, 20, 9, 91, 6, 5, 4, 3, 9, 4, 22, 3, 47]
+
+
+sentence : Carry the remote to the floor lamp that is to the left of the bright red chair
+tokens : ['carry', 'the', 'remote', 'to', 'the', 'floor', 'lamp', 'that', 'is', 'to', 'the', 'left', 'of', 'the', 'bright', 'red', 'chair']
+ID : [134, 3, 118, 4, 3, 126, 64, 46, 55, 4, 3, 10, 7, 3, 1, 162, 76]
+
+
