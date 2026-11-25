@@ -5,8 +5,16 @@ seed: 42
 paths:
   raw_dir: data/json_2.1.0
   processed_dir: data/processed
+  vocab_dir: data/vocab
 
 splits:
   train: train
   valid: valid_seen
   test: valid_unseen
+
+tokens:
+  words_min_freq: 3
+  actions_min_freq: 1
+  words_special: ["<pad>", "<unk>", "<sep>"]
+  actions_special: ["<pad>", "<unk>", "<bos>", "<eos>"]
+
