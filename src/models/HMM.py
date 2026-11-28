@@ -108,4 +108,4 @@ class HMM():
         model = cls(k = float(ckpt["k"]))
         model.pi_count, model.A_count, model.B_count = ckpt["pi_count"], ckpt["A_count"], ckpt["B_count"]
         model.smooth()
-        return models
+        return model

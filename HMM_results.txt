@@ -1,0 +1,8 @@
+train 21004
+valid 820
+test 815
+k=0.001  valid {'step_acc': 0.7763016157989228, 'seq_exact': 0.2914634146341463, 'oov_sent_acc': 0.5094339622641509, 'oov_sent_n': 53}
+k=0.01   valid {'step_acc': 0.7890484739676841, 'seq_exact': 0.3097560975609756, 'oov_sent_acc': 0.5283018867924528, 'oov_sent_n': 53}
+k=0.1    valid {'step_acc': 0.7877917414721723, 'seq_exact': 0.3121951219512195, 'oov_sent_acc': 0.5660377358490566, 'oov_sent_n': 53}
+k=1.0    valid {'step_acc': 0.7287253141831239, 'seq_exact': 0.20609756097560974, 'oov_sent_acc': 0.5283018867924528, 'oov_sent_n': 53}
+best k=0.01  test {'step_acc': 0.7912391475927387, 'seq_exact': 0.34846625766871164, 'oov_sent_acc': 0.6363636363636364, 'oov_sent_n': 44}
