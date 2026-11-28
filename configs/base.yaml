@@ -18,3 +18,5 @@ tokens:
   words_special: ["<pad>", "<unk>", "<sep>"]
   actions_special: ["<pad>", "<unk>", "<bos>", "<eos>"]
 
+hmm:
+  k_candidates: [0.001, 0.01, 0.1, 1.0]
